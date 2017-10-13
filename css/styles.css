@@ -6,6 +6,52 @@
             box-sizing: border-box;
 }
 
+body {
+  background-color: #6691b0;
+  font-family: 'Raleway', sans-serif;
+  color: #F5F5F2;
+}
+
+.masthead-container {
+  height: 80px;
+  background-color: #FFFFFA;
+}
+
+
+.masthead-container h3 {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  color: black;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  border: 10px;
+  float: left;
+}
+
+.masthead-container li {
+  float: right;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  font: 10px;
+  border-right: solid 5px #A81B3E;
+  color: black;
+}
+
+.masthead-container li a {
+  text-decoration: none;
+  color: black;  
+  font-weight: bold;
+}
+
+.hero-image-center img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 /*
 --- Color list ---
 #FFFFFA - beige background
