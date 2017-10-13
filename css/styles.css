@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*
+--- Color list ---
+#FFFFFA - beige background
+#F5F5F2 - grey accent
+#FF4E1B - orange accent
+#282828 - darkgrey
+#3B3B3B - active box
+#92D4D6 - teal accent
+#6691b0 - blue backdrop -- rgb(102, 145, 176)
+#A81B3E - dark blue cover
+#5D642D - dark green cover -- rgb(93,100,45)
+#B1C0B3 - light green
+#CFD883 - light lime
+#2F2D5B - purple
+#3D3863 - dark purple
+
+-----Font family--------
+font-family: 'Cinzel', serif;
+font-family: 'Raleway', sans-serif;
+
+*/
