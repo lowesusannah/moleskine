@@ -17,7 +17,6 @@ body {
   height: 80px;
 }
 
-
 .masthead-container h3 {
   font-family: 'Cinzel', serif;
   font-weight: bold;
@@ -35,9 +34,10 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   font: 10px;
-  border-right: solid 5px #A81B3E;
   color: black;
+  border-left: solid 5px #A81B3E;
 }
+
 
 .masthead-container li a {
   text-decoration: none;
@@ -49,6 +49,7 @@ body {
   background-color: #6691b0;
   height: 500px;
   position: relative;
+  border-radius: 3px;
 }
 
 .hero-image-center img {
@@ -76,9 +77,69 @@ body {
   padding-left: 100px;
 }
 
+.description-container {
+  float: left;
+  color: black;
+  width: 500px;
+  margin: 10px;
+}
 
+.form-container {
+  float: left;
+  color: black;
+  width: 500px;
+  background-color: #FFEFD7;
+  padding: 20px;;
+  position: relative;
+  border-radius: 3px;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.form-container label {
+  float: left;
+  padding: 5px;
+  margin: 2px;
+  width: 70%;
+}
+
+.form-container input {
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  width: 70%;
+}
+
+.form-container button {
+  bottom: 10px;
+  right: 30px;
+  height: 35px;
+  width: 75px;
+  padding: 5px;
+  margin: 10px; 
+  border-radius: 5px;
+  background-color: #92D4D6;
+  border-color: #92D4D6;
+  float: left;
+}
+
+.float-gallery-container {
+  clear: both;
+  width: 95%;
+  margin: 50px 50px 0px 50px;
+
+}
+
+.float-gallery-container img {
+  width: 290px;
+  height: 290px;
+  float: left;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+}
 /*
 --- Color list ---
+#FFEFD7 - light yellow/orange background
 #FFFFFA - beige background
 #F5F5F2 - grey accent
 #FF4E1B - orange accent
