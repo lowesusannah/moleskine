@@ -6,15 +6,15 @@
             box-sizing: border-box;
 }
 
+
 body {
-  background-color: #6691b0;
+  background-color: #FFFFFA;
   font-family: 'Raleway', sans-serif;
   color: #F5F5F2;
 }
 
 .masthead-container {
   height: 80px;
-  background-color: #FFFFFA;
 }
 
 
@@ -41,15 +41,40 @@ body {
 
 .masthead-container li a {
   text-decoration: none;
-  color: black;  
+  color: black;
   font-weight: bold;
 }
 
-.hero-image-center img {
-  margin-left: auto;
-  margin-right: auto;
+.hero-image-center {
+  background-color: #6691b0;
+  height: 500px;
+  position: relative;
 }
 
+.hero-image-center img {
+  padding-top: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  transform: translate(0, -50%);
+  position: relative;
+}
+
+.hero-image-center p {
+  position: absolute;
+  top: 5%;
+  transform: translate(0, -5%);
+  color: black;
+  width: 375px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 0px 3px 3px 0px;
+  padding-left: 100px;
+}
 
 
 /*
