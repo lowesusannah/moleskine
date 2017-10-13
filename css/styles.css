@@ -13,36 +13,43 @@ body {
   color: #F5F5F2;
 }
 
+li::after {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  content: " || "
+}
+
 .masthead-container {
-  height: 80px;
+  height: 100px;
 }
 
 .masthead-container h3 {
   font-family: 'Cinzel', serif;
   font-weight: bold;
+  font-size: 30px;
   color: black;
   top: 0px;
   left: 0px;
   padding: 10px;
   border: 10px;
   float: left;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .masthead-container li {
   float: right;
   display: inline;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   font: 10px;
-  color: black;
-  border-left: solid 5px #A81B3E;
 }
 
 
 .masthead-container li a {
   text-decoration: none;
-  color: black;
   font-weight: bold;
+  color:#92D4D6
 }
 
 .hero-image-center {
@@ -84,6 +91,7 @@ body {
   margin: 10px;
 }
 
+
 .form-container {
   float: left;
   color: black;
@@ -110,13 +118,14 @@ body {
   width: 70%;
 }
 
+
 .form-container button {
   bottom: 10px;
   right: 30px;
   height: 35px;
   width: 75px;
   padding: 5px;
-  margin: 10px; 
+  margin: 10px;
   border-radius: 5px;
   background-color: #92D4D6;
   border-color: #92D4D6;
@@ -127,7 +136,6 @@ body {
   clear: both;
   width: 95%;
   margin: 50px 50px 0px 50px;
-
 }
 
 .float-gallery-container img {
@@ -137,6 +145,13 @@ body {
   border-radius: 5px;
   margin: 10px 10px 10px 0px;
 }
+
+.float-gallery-container img:hover {
+  border: 10px solid #92D4D6;
+  transition-timing-function: ease-in;
+}
+
+
 /*
 --- Color list ---
 #FFEFD7 - light yellow/orange background
