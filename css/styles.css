@@ -19,6 +19,13 @@ li::after {
   content: " || "
 }
 
+h3 {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: black;
+}
+
 .masthead-container {
   height: 100px;
 }
@@ -87,8 +94,12 @@ li::after {
 .description-container {
   float: left;
   color: black;
-  width: 500px;
+  width: 100%;
   margin: 10px;
+}
+
+.description-container p {
+  float:left;
 }
 
 
@@ -100,8 +111,10 @@ li::after {
   padding: 20px;;
   position: relative;
   border-radius: 3px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
   margin-left: 50px;
+  margin-bottom: 50px;
 }
 
 .form-container label {
@@ -118,7 +131,6 @@ li::after {
   width: 70%;
 }
 
-
 .form-container button {
   bottom: 10px;
   right: 30px;
@@ -132,25 +144,33 @@ li::after {
   float: left;
 }
 
-.float-gallery-container {
+
+
+.float-gallery-container h3 {
   clear: both;
   width: 95%;
-  margin: 50px 50px 0px 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #CFD883;
+  text-align: right;
 }
+
 
 .float-gallery-container img {
   width: 290px;
   height: 290px;
-  float: left;
+  float: right;
   border-radius: 5px;
   margin: 10px 10px 10px 0px;
 }
 
 .float-gallery-container img:hover {
   border: 10px solid #92D4D6;
-  transition-timing-function: ease-in;
+  transition: ease-in;
 }
-
 
 /*
 --- Color list ---
